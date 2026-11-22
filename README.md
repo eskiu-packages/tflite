@@ -14,7 +14,7 @@
 
 <p align="center">
   <a href="https://github.com/eskiu-packages/tflite/actions/workflows/ci.yml?query=branch%3Adevelop"><img src="https://github.com/eskiu-packages/tflite/actions/workflows/ci.yml/badge.svg?branch=develop" alt="CI"></a>
-  <img src="https://img.shields.io/badge/version-0.1.2-6448d4" alt="Version 0.1.2">
+  <img src="https://img.shields.io/badge/version-0.1.3-6448d4" alt="Version 0.1.3">
   <img src="https://img.shields.io/badge/TensorFlow%20Lite-2.21-orange" alt="TensorFlow Lite 2.21">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue" alt="License: MIT"></a>
 </p>
@@ -88,7 +88,7 @@ buffer can go at once.
 In an Eskiu package (Eskiu 0.15.1 or newer, for gpu 0.7.1), on macOS and Linux:
 
 ```bash
-eskiuc add tflite --git https://github.com/eskiu-packages/tflite --rev v0.1.2
+eskiuc add tflite --git https://github.com/eskiu-packages/tflite --rev v0.1.3
 eskiuc build
 ```
 
